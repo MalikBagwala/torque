@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+section.main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  z-index: 10;
+}
+
+section.homepage {
+  background: url("../images/background.jpg");
+  background-size: cover;
+}
+
+section.bmw {
+  background: url("../images/bmw-back.jpg");
+}
+
+section.merc {
+  background: url("../images/merc-back.jpg");
+  background-position: top;
+}
+
+section.audi {
+  background: url("../images/audi-back.jpg");
+  /* background-position:; */
+}
+section.main h1 {
+  font-size: 5.5rem;
+}
+
+section.main p {
+  font-size: 2rem;
+  font-style: italic;
+  color: gainsboro;
+}
+
+section.brands {
+  padding: 2.5rem 0;
+}
+section.brands div.brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section.brands div.brand a {
+  color: gray;
+  font-size: 2rem;
+}
+div.brand img {
+  height: 300px;
+  width: 300px;
+}
